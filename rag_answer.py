@@ -40,7 +40,8 @@ def ask(question:str):
     )
     return resp.json()["choices"][0]["message"]["content"]
 
-print(ask("What is the capital of France?"))
+print(ask("What threats does the cultural heritage face?"))
+
 
 
 
